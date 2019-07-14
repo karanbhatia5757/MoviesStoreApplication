@@ -6,13 +6,16 @@ import Rentals from "./components/rentals.jsx";
 import NotFound from "./components/notFound.jsx";
 import Customers from "./components/customers.jsx";
 import NavBar from "./components/navBar.jsx";
+import LoginForm from "./components/loginForm";
 import "./App.css";
+
 function App() {
   return (
     <React.Fragment>
       <NavBar />
       <main className="container">
         <Switch>
+          <Route path="/login" component={LoginForm} />
           <Route path="/movies/:id" component={MovieForm} />
           <Route path="/movies" component={Movies} />
           <Route path="/customers" component={Customers} />
