@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+The App is available at: https://stormy-island-24967.herokuapp.com/movies
+
 ## Available Scripts
 
 In the project directory, you can run:
